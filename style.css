@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+}
+.top-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    background: darkgray;
+}
+img{
+    box-sizing: border-box;
+}
+.top-header p{
+    margin: 10px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 250%;
+    height: 420px;
+}
+.card img{
+    width: 250%;
+    height: 250px;
+    border-radius: 10%;
+}
